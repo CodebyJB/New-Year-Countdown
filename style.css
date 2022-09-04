@@ -56,11 +56,19 @@ h1 {
   width: 100%;
   height: 100%;
 }
+.year {
+  font-size: 9rem;
+  z-index: -1;
+  opacity: 0.2;
+}
 @media (max-width: 400px) {
   .countdown {
     font-size: 1.5rem;
   }
   .countdown p {
     font-size: 1rem;
+  }
+  .year {
+    font-size: 7rem;
   }
 }
